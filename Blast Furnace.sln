@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blast Furnace", "Blast Furnace\Blast Furnace.csproj", "{19CDC38F-3C6A-43AF-B488-D40504A446FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blast FurnaceTests", "Blast FurnaceTests\Blast FurnaceTests.csproj", "{74AA3206-F1FD-426A-825F-D86A9BA28ED1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19CDC38F-3C6A-43AF-B488-D40504A446FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19CDC38F-3C6A-43AF-B488-D40504A446FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19CDC38F-3C6A-43AF-B488-D40504A446FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19CDC38F-3C6A-43AF-B488-D40504A446FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74AA3206-F1FD-426A-825F-D86A9BA28ED1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74AA3206-F1FD-426A-825F-D86A9BA28ED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74AA3206-F1FD-426A-825F-D86A9BA28ED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74AA3206-F1FD-426A-825F-D86A9BA28ED1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C14EF78-DD5D-4803-B6B8-924D5A861D7E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+﻿<Application x:Class="ViewLab10.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ViewLab10.View"
+             StartupUri="View/mainwindow.xaml">
+    <Application.Resources>
+        <FontFamily x:Key="digital_7">pack://application:,,,/Fonts/#Digital</FontFamily>
+        <FontFamily x:Key="DIGITALDREAMFAT">pack://application:,,,/Fonts/#Digital dream Fat</FontFamily>
+        <Style x:Key="MyTextStyle">
+            <Setter Property="TextBlock.FontFamily" Value="Resources/digital-7.ttf #Digital-7"/>
+        </Style>
+    </Application.Resources>
+</Application>

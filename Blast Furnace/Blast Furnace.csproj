@@ -1,0 +1,78 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="Resources\digital-7.ttf" />
+	  <None Remove="Resources\DIGITALDREAM.ttf" />
+	  <None Remove="Resources\DIGITALDREAMFAT.ttf" />
+	  <None Remove="Resources\DIGITALDREAMFATNARROW.ttf" />
+	  <None Remove="Resources\DIGITALDREAMFATSKEW.ttf" />
+	  <None Remove="Resources\DIGITALDREAMFATSKEWNARROW.ttf" />
+	  <None Remove="Resources\DIGITALDREAMNARROW.ttf" />
+	  <None Remove="Resources\DIGITALDREAMSKEW.ttf" />
+	  <None Remove="Resources\DIGITALDREAMSKEWNARROW.ttf" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Prism.Wpf" Version="8.1.97" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Page Include="App.xaml" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Resource Include="Resources\DIGITALDREAM.ttf">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Resources\DIGITALDREAMFAT.ttf">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Resources\DIGITALDREAMFATNARROW.ttf">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Resources\DIGITALDREAMFATSKEW.ttf">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Resources\DIGITALDREAMFATSKEWNARROW.ttf">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Resources\DIGITALDREAMNARROW.ttf">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Resources\DIGITALDREAMSKEW.ttf">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Resources\DIGITALDREAMSKEWNARROW.ttf">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Resource>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Resource Include="Resources\digital-7.ttf">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Resource>
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Update="Properties\Resources.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>Resources.resx</DependentUpon>
+		</Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Update="Properties\Resources.resx">
+			<Generator>PublicResXFileCodeGenerator</Generator>
+			<LastGenOutput>Resources.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+	</ItemGroup>
+
+</Project>
